@@ -78,7 +78,7 @@ nav ul li a:hover::after{
     color: #3e5ec4;
 }
 
-
+/*----- Projects I've made (Services) Section---- */
 
 #about{
     padding: 80px 0;
@@ -104,6 +104,10 @@ nav ul li a:hover::after{
     flex-basis: 45%;
 }
 
+.about-col-2 p{
+    text-align: justify;
+}
+
 .sub-title{
     font-size: 60px;
     font-weight: 600;
@@ -127,7 +131,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #3e5ec4;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -135,7 +139,7 @@ nav ul li a:hover::after{
 }
 
 .tab-links.active-link::after{
-    width: 50%;
+    width: 100%;
 }
 
 .tab-contents ul li{
@@ -144,7 +148,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #3e5ec4;
     font-size: 14px;
 }
 
@@ -158,4 +162,59 @@ nav ul li a:hover::after{
 
 h6{
     color: #fff;
+}
+
+
+#services{
+    padding: 30px 0;
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div{
+    background: #282828;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 300px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-list div {
+    display: flex;
+    flex-direction: column;
+    background: #282828;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center align the text */
+}
+
+.services-list div img {
+    width: 70%;
+    height: auto; /* Allow the image to maintain its aspect ratio */
+    object-fit: contain;
+    margin-bottom: 10px; /* Add spacing between the image and the title */
+}
+
+.services-list div h2 {
+    margin: 0; /* Remove default margin for the title */
+}
+
+.services-list div p {
+    margin: 0; /* Remove default margin for the paragraph */
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #ffffff; /* Change link color */
 }
