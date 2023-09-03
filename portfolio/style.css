@@ -202,6 +202,9 @@ h6{
     align-items: center;
     text-align: center; /* Center align the text */
     transition: background 0.5s, transform 0.5s;
+
+    width: 220px;
+    height: 260px;
 }
 
 .services-list div img {
@@ -221,10 +224,6 @@ h6{
     text-align: justify;
 }
 
-.services-list div a {
-    text-decoration: none;
-    color: #ffffff; /* Change link color */
-}
 
 .services-list div:hover{
     background: #3e5ec4;
