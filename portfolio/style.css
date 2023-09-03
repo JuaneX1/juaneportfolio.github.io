@@ -4,6 +4,10 @@
     font-family: 'poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -314,6 +318,7 @@ form .btn{
 nav .fas{
     display: none;
 }
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/backgroundPic.jpg);
@@ -352,4 +357,10 @@ nav .fas{
         left:S 25px;
         cursor: pointer;
     }
+}
+
+#msg{
+    color: #75d400;
+    margin-top: -40px;
+    display: block;
 }
