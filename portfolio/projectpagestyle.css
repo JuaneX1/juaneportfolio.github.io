@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'poppins', sans-serif;
+    background-image: url(images/backgroundPic.jpg);
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.project-description {
+    margin-bottom: 30px;
+}
+
+.project-description p{
+    text-align: justify;
+}
+.project-images .image-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.project-images img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3e5ec4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.image-container li{
+    display: inline-block;
+}
+
+.image-container img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.project-link a:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .project-link {
+        text-align: center;
+    }
+}
+
+/* Back home button */
+.back-home-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Button styles */
+.back-home-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3e5ec4;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-home-button a:hover {
+    background-color: #555;
+}
